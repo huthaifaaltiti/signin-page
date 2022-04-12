@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="login-container">
+        <div class="right-container">
+          <h2 class="heading-2 sign-head">Sign in</h2>
+
+          <a href="#" class="svg-link-tw">
+            <svg class="svg-icon svg-tw">
+              <use xlink:href="/img/sprite.svg#icon-social-twitter"></use>
+            </svg>
+          </a>
+          <a href="#" class="svg-link-fc">
+            <svg class="svg-icon svg-fc">
+              <use xlink:href="/img/sprite.svg#icon-social-facebook"></use>
+            </svg>
+          </a>
+
+          <form action="#" class="form-body">
+            <label for="name" class="form-label-name">Username </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              class="form-input-name"
+              placeholder="Username"
+            />
+
+            <label for="password" class="form-label-pass">Password </label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              required
+              class="form-input-pass"
+              placeholder="Password"
+            />
+
+            <div class="check">
+              <input
+                type="checkbox"
+                id="remember"
+                name="scales"
+                class="check-input"
+                checked
+              />
+              <label for="remember" class="check-label">Remember me</label>
+            </div>
+
+            <a href="#" class="link-forget">
+              <p class="para-text">Forgot password?</p>
+            </a>
+            <input type="submit" value="Sign in" class="form-submit" />
+          </form>
+        </div>
+
+        <div class="left-container">
+          <h1 class="heading-1">Welcome to login</h1>
+          <a href="#" class="link">
+            <p class="para-text">Don't have an account?</p>
+          </a>
+          <a href="#" class="sign">Sign up</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
